@@ -1,12 +1,20 @@
-import React from "react";
-import Home from "./pages/home/Home";
-import Header from "./components/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/header/Header";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Footer from "./components/footer/Footer"
 
+{/* utilisation de browserrouter pour naviguer avec des routes entre chaques pages ou composants */}
 const App = () => {
   return (
-  <div className="header">
-    <Header />
-  </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/about" element={<About />}/>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 };
 
