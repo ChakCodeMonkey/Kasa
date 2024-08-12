@@ -1,0 +1,28 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    margin: 30px auto;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+ul a.underline {
+    text-decoration: underline;
+}
+
+ul li {
+    list-style: none;
+    font-size: 24px;
+    margin-left: 20px;
+}

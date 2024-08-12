@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Footer from "./components/footer/Footer"
+import './components/header/header.css'
 
 {/* utilisation de browserrouter pour naviguer avec des routes entre chaques pages ou composants */}
 const App = () => {
