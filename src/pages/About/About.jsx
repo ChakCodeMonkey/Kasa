@@ -3,12 +3,10 @@ import imgBanner from "../../assets/images/banner/abourBanner.png";
 
 
 
-const About = () => {
+export default function About() {
   return (
     <main>
       <Banner image={imgBanner}/>
     </main>
   );
 };
-
-export default About;
