@@ -6,3 +6,15 @@ main {
     margin: 0 auto; 
     padding: 0 20px;
 }
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px; /* Pour gérer l'espace entre les cartes */
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 20px; /* Espace autour des cartes */
+    margin-bottom: 30px;
+}
