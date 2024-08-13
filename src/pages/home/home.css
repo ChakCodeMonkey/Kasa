@@ -18,3 +18,10 @@ main {
     padding: 20px; /* Espace autour des cartes */
     margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+    .cardsContainer {
+        display: flex;
+        flex-direction: column
+    }
+};

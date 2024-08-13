@@ -11,8 +11,7 @@
 
 article {
     display: flex;
-    
-
+    width: 100%;  
 }
 
 .imgLogement {
@@ -25,7 +24,6 @@ article {
 }
 
 .blackFilter {
-    width: 100%;
     height: 100%;
     background-color: black;
     position: absolute;
@@ -50,3 +48,28 @@ h2 {
     left: 10px;
     box-sizing: border-box;
 }
+
+
+@media (max-width: 768px) {
+    .cardsContainer a {
+        width: 100%;
+        height: 255px;
+        max-width: none;
+    }
+    
+    article {
+        position: relative;
+    }
+    
+    .imgLogement {
+        width: 100%;
+        height: 255px;
+        max-width: none;
+    }
+
+    .blackFilter {
+        width: 100%;
+        height: 255px;
+        max-width: none;
+    }
+};
