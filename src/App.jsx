@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import About from "./pages/About/About";
 import Home from "./pages/home/Home";
+import Error from "./pages/error/Error";
 import Footer from "./components/footer/Footer"
 
 {/* utilisation de browserrouter pour naviguer avec des routes entre chaques pages ou composants */}
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
+        <Route path="*" element={<Error />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
