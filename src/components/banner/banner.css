@@ -51,10 +51,13 @@
         height: 111px;
         border-radius: 10px;
         justify-content: flex-start;
+        margin-bottom: 20px;
+        box-shadow: none;
     }
 
     .banner__txt {
         font-size: 24px;
         text-align: left;
     }
+
 };

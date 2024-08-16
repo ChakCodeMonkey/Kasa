@@ -7,6 +7,8 @@ import './components/footer/footer.css'
 import './components/banner/banner.css'
 import './pages/home/home.css';
 import './components/cards/card.css'
+import './components/collapse/collapse.css'
+import './pages/About/about.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

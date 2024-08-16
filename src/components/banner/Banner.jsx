@@ -5,7 +5,7 @@ export default function Banner({ image, texte }) {
       <div className="banner">
         <img className="banner__img" src={image} alt="Bannière" />
         <div className="banner__sombre"></div>
-        <span className="banner__txt">{texte}</span>
+        <h1 className="banner__txt">{texte}</h1>
       </div>
     );
   }
