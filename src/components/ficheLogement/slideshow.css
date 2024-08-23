@@ -1,0 +1,76 @@
+/* Container principal du diaporama */
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 415px; /* Hauteur fixée pour le diaporama */
+    overflow: hidden; /* Masquer les parties débordantes */
+    border-radius: 25px;
+    margin-bottom: 30px;
+  }
+  
+  /* Conteneur des slides, configuré pour un défilement horizontal */
+  .slideshow-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out; /* Animation fluide lors du défilement */
+  }
+  
+  /* Chaque slide occupe toute la largeur du conteneur */
+  .slide.active {
+    flex: 0 0 100%; /* Chaque slide prend 100% de la largeur du conteneur */
+    height: 100%; /* Chaque slide prend 100% de la hauteur du conteneur */
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  /* Style des images dans les slides */
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste l'image sans déformation */
+  }
+  
+  /* Styles des boutons de navigation */
+  button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 80px;
+    border-radius: 5px; /* Bord arrondi pour les boutons */
+  }
+  
+  /* Positionnement des boutons */
+  button.prev {
+    left: 10px;
+  }
+  
+  button.next {
+    right: 10px;
+  }
+  
+  /* Style pour le compteur */
+  .counter {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1; /* Assure que le compteur soit au-dessus des autres éléments */
+  }
+  
+
+  @media (max-width: 768px) {
+    .slideshow {
+        height: 255px;
+    }
+}

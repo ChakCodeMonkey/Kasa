@@ -2,6 +2,7 @@ import { useParams, Navigate } from "react-router-dom";
 import logements from "../../data/logements.json";
 import Banner from "../../components/banner/Banner";
 import imgBanner from "../../assets/images/banner/homeBanner.png";
+import Slideshow from "../../components/ficheLogement/Slideshow";
 
 export default function Logement() {
   const { id } = useParams();
@@ -14,11 +15,7 @@ export default function Logement() {
 
   return (
     <main>
-      <Banner texte="TEST" image={imgBanner} />
-      <section>
-        {/* Afficher les détails du logement ici */}
-        {/* Autres détails */}
-      </section>
+        <Slideshow images={logement.pictures} />
     </main>
   );
 }
