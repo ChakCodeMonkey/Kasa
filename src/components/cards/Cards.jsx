@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default function Card({ location }) {
   return (
-  <Link to={"../../data.json" + location.id} key={ "" + location.id}>
+  <Link to={"../../logement/" + location.id} key={ "" + location.id}>
     <article>
       <img src={location.cover} alt={location.title} className="imgLogement"/>
       <div className="blackFilter"></div>

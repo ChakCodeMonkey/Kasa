@@ -9,19 +9,22 @@ main {
 
 .cardsContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 20px; /* Pour gérer l'espace entre les cartes */
     background-color: #F6F6F6;
     border-radius: 25px;
-    padding: 20px; /* Espace autour des cartes */
+    padding: 40px; /* Espace autour des cartes */
     margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
     .cardsContainer {
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        padding: 0;
     }
 };
