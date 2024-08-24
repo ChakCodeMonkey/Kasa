@@ -13,6 +13,8 @@ import './pages/error/error.css'
 import './components/ficheLogement/slideshow.css'
 import './components/ficheLogement/info.css'
 import './pages/logement/logement.css'
+import './components/ficheLogement/proprio.css'
+import './components/ficheLogement/note.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

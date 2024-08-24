@@ -20,8 +20,8 @@ export default function Logement() {
         <section className="infoContent">
         <Info />
         <div className="ProprioNote">
-          <Note />
           <Proprio />
+          <Note rating={logement.rating}/>
         </div>
         </section>
     </main>

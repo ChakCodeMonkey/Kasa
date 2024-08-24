@@ -1,0 +1,18 @@
+.infoProprio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name {
+    width: 100px;
+    text-align: right;
+    font-size: 18px;
+    color: #FF6060;
+    margin-right: 10px;
+}
+
+.host {
+    border-radius: 100px;
+    height: 64px;
+}
