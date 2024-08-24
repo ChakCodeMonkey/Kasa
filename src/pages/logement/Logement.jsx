@@ -1,8 +1,9 @@
 import { useParams, Navigate } from "react-router-dom";
 import logements from "../../data/logements.json";
-import Banner from "../../components/banner/Banner";
-import imgBanner from "../../assets/images/banner/homeBanner.png";
 import Slideshow from "../../components/ficheLogement/Slideshow";
+import Info from "../../components/ficheLogement/Info";
+import Note from "../../components/ficheLogement/Note";
+import Proprio from "../../components/ficheLogement/Proprio";
 
 export default function Logement() {
   const { id } = useParams();
@@ -16,6 +17,13 @@ export default function Logement() {
   return (
     <main>
         <Slideshow images={logement.pictures} />
+        <section className="infoContent">
+        <Info />
+        <div className="ProprioNote">
+          <Note />
+          <Proprio />
+        </div>
+        </section>
     </main>
   );
 }

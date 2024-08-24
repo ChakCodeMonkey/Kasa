@@ -10,6 +10,9 @@ import './components/cards/card.css'
 import './components/collapse/collapse.css'
 import './pages/About/about.css'
 import './pages/error/error.css'
+import './components/ficheLogement/slideshow.css'
+import './components/ficheLogement/info.css'
+import './pages/logement/logement.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

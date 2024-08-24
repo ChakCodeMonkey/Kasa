@@ -1,0 +1,32 @@
+.info h2 {
+    color: #FF6060;
+    font-size: 36px;
+    font-weight: 500;
+    left: 0;
+}
+
+.location {
+    margin-bottom: 20px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    padding-left: 0;
+}
+
+.tags li {
+    background-color: #FF6060;
+    width: 115px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 10px;
+}

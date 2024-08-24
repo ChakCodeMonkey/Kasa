@@ -1,0 +1,10 @@
+.infoContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProprioNote {
+    background-color: red;
+    width: 50%;
+}

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
-import './slideshow.css'; // Assurez-vous que ce fichier contient les styles nécessaires
 
 export default function Slideshow({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
