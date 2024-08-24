@@ -9,8 +9,6 @@ export default function Note({ rating }) {
     ));
 
     return (
-        <div className="rating">
             <div className="stars">{stars}</div>
-        </div>
     );
 }

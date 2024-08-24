@@ -10,10 +10,10 @@ export default function Header() {
       <nav>
         <ul>
           {/*utilisation de Navlink pour définir une class et changer la route*/}
-          <li>
+          <li className="liHeader">
             <NavLink to= "/" className={({isActive}) => (isActive ? "underline" : "")}>Accueil</NavLink>
           </li>
-          <li>
+          <li className="liHeader">
             <NavLink to = "/about" className={({isActive}) => (isActive ? "underline" : "")}> A propos</NavLink>
           </li>
         </ul>

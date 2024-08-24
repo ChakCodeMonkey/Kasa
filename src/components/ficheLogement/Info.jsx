@@ -16,7 +16,7 @@ export default function Info() {
         <p className="location">{logement.location}</p>
         <ul className="tags">
           {logement.tags.map((tag, index) => (
-            <li key={index}>{tag}</li>
+            <li key={index} className='nomTags'>{tag}</li>
           ))}
         </ul>
     </div>

@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .ProprioNote {
@@ -11,4 +12,18 @@
     align-items: flex-end;
     justify-content: space-between;
 
+}
+
+@media (max-width: 768px) {
+    .infoContent {
+        flex-direction: column;
+    }
+
+    .ProprioNote {
+        flex-direction: row-reverse;
+        width: 100%;
+        align-items: center;
+        
+    }
+    
 }

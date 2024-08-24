@@ -14,3 +14,13 @@
 .empty-star {
     color: lightgray;
 }
+
+@media (max-width : 768px) {
+
+    .stars {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+}

@@ -14,11 +14,12 @@
     flex-direction: row;
     left: 0;
     padding-left: 0;
+    flex-wrap: wrap;
 }
 
-.tags li {
+.tags .nomTags {
     background-color: #FF6060;
-    width: 115px;
+    min-width: 115px;
     height: 25px;
     display: flex;
     align-items: center;
@@ -29,4 +30,19 @@
     margin-bottom: 30px;
     margin-left: 0;
     margin-right: 10px;
+    padding: 0 5px 0 5px;
+}
+
+@media (max-width: 768px) {
+    .info h2 {
+        font-size: 18px;
+    }
+
+    .location {
+        font-size: 14px;
+    }
+
+    .tags .nomTags {
+        height: 25px;
+    }
 }

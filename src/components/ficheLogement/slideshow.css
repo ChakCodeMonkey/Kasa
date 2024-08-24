@@ -73,4 +73,8 @@
     .slideshow {
         height: 255px;
     }
+
+    button.prev, button.next {
+      font-size: 24px;
+    }
 }

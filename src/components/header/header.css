@@ -22,7 +22,7 @@ ul a.underline {
     text-decoration: underline;
 }
 
-ul li {
+ul .liHeader {
     list-style: none;
     font-size: 24px;
     margin-left: 20px;
@@ -33,7 +33,7 @@ ul li {
         height: 46px;
     }
 
-    ul li {
+    ul .liHeader {
         font-size: 12px;
         margin-left: 18px;
         text-transform: uppercase;
