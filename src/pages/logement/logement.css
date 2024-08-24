@@ -14,6 +14,20 @@
 
 }
 
+.CollapsePart {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CollapsePart .collapse-list {
+    width: 46%;
+}
+
+.CollapsePart .collapse-list .collapse-item .collapse-title {
+    font-size: 18px;
+}
+
 @media (max-width: 768px) {
     .infoContent {
         flex-direction: column;
@@ -25,5 +39,21 @@
         align-items: center;
         
     }
-    
+
+    .CollapsePart {
+        flex-direction: column;
+    }
+
+    .CollapsePart .collapse-list {
+    width: 100%;
+    }
+
+    .CollapsePart .collapse-list .collapse-item .collapse-title {
+        font-size: 13px;
+    }
+
+    .CollapsePart .collapse-list .collapse-item .collapse-content {
+        font-size: 13px;
+    }
+
 }
